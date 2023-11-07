@@ -18,4 +18,9 @@ public:
     MyString(MyString& other);                // конструктор копирования
     ~MyString();                              // деструктор
 
+    void Add_str(int num_r);                  // задание строки (с определенным номером)
+    void Output_str(int num_r);               // вывод строки на экран
+    void Output_text();                       // вывод всех строк на экран
+    void Comb_str(int num_a, int num_b);      // конкотенация двух строк
+    int Serch_Str();                          // поиск введенной строки
 };
