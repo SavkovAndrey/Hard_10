@@ -9,7 +9,7 @@ int main() {
 	srand(time(NULL));
 
 
-
+	MyString str(3, 20);
 
 
 
