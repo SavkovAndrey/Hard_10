@@ -106,7 +106,7 @@ void MyString::Output_text()
 
 void MyString::Comb_str(int num_a, int num_b)
 {
-	cout << "конкотенация строки " << num_a << " и строки " << num_b << "имеет вид:" << endl;
+	cout << "конкотенация строки " << num_a << " и строки " << num_b << " имеет вид:" << endl;
 	char* temp_mass = new char[long_string * 2 + 1];
 	int temp_i = 0;
 	for (int i = 0; i < long_string; i++)
